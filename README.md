@@ -14,6 +14,7 @@ First of all, you are cool when you have a Mac or Linux. I have never tried runn
 If you have a Mac or Linux, make sure you know how to open up console in Linux or Terminal.app in Mac. 
 
 Then you'd have to install Nokogiri gem for ruby:
+
 `sudo gem install nokogiri`
 
 If you are on Mac and don't have either MacPorts or Brew installed - you have to install any of them and then:
@@ -28,8 +29,8 @@ or
 And then you are ready to go
 
 1. Create a directory you want to store your images at
-2. Find it in shell e.g. cd /path/to/my/images. If you have created this directory in your Home, then most likely you would be able to find it with ~/images
-3. Type "pwd" and copy the output, the output is actually your images directory path
+2. Find it in shell e.g. `cd /path/to/my/images`. If you have created this directory in your Home, then most likely you would be able to find it with ~/images
+3. Type `pwd` and copy the output, the output is actually your images directory path
 4. With terminal, go to the directory, where you have a downloader.rb script and type the following:
     `ruby downloader.rb -u yourusername -p yourpassword -d imagesdirectory`
 
