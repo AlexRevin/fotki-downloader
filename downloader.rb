@@ -6,7 +6,6 @@ require 'net/https'
 require 'nokogiri'
 require 'optparse'
 require 'rexml/document'
-require 'awesome_print'
 
 
 opt = {}
@@ -140,7 +139,6 @@ class FotkiPhotoListFetcher
   def fetch(url)
     data = @pf.send_request(url + "?cmd=fs_slideshow")
     row = data.split("\n")[4]
-    ap URI.unescape(row[7..-3])
     p_urls = self.fetch_xml(URI.unescape(row[7..-3]))
   end
 
