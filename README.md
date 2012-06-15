@@ -17,7 +17,7 @@ Then you'd have to install Nokogiri gem for ruby:
 
 `sudo gem install nokogiri`
 
-If you are on Mac and don't have either [MacPorts](http://www.macports.org/) or [HomeBrew](http://mxcl.github.com/homebrew/) installed - you have to install any of them and then:
+If you are on Mac and don't have either [MacPorts](http://www.macports.org/) or [HomeBrew](http://mxcl.github.com/homebrew/) installed - you have to install any of them and then check if you have Xcode with Command Line Tools installed. If so, then we are ready to go!
 
 `sudo port install wget`
 or 
