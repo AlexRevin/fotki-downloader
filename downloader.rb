@@ -10,7 +10,7 @@ require 'rexml/document'
 
 opt = {}
 OptionParser.new do |opts|
-  opts.banner = "Usage: downloader.rb [options]"
+  opts.banner = "Usage: ruby downloader.rb -u login -p password -d directory"
   opts.on("-u login", String, "Specify the login") do |u|
     opt[:user] = u
   end
