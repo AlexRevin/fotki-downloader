@@ -17,13 +17,13 @@ Then you'd have to install Nokogiri gem for ruby:
 
 `sudo gem install nokogiri`
 
-If you are on Mac and don't have either MacPorts or Brew installed - you have to install any of them and then:
+If you are on Mac and don't have either [MacPorts]([HomeBrew](http://mxcl.github.com/homebrew/)) or HomeBrew installed - you have to install any of them and then:
 
 `sudo port install wget`
-
 or 
-
 `brew install wget`
+
+Linux users should not do any of above, though you have to check if wget is installed in your system and install it if it's not
 
 
 And then you are ready to go
